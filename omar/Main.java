@@ -7,7 +7,7 @@ public class Main {
 
         public static void main(String[] args) {
             Book[] books = new Book[] {
-                    new Book(1, "Book_11", new Author[] { new Author(1, "Jon", "Johnson") },
+                    new Book(1, "Book_1", new Author[] { new Author(1, "Jon", "Johnson") },
                             new Publisher(1, "Publisher_1"), 1990, 231,
                             BigDecimal.valueOf(24.99), CoverType.PAPERBACK),
                     new Book(2, "Book_2",
